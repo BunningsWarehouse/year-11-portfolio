@@ -6,7 +6,10 @@
     font-family: Intergalactic;
     src: url(intergalactic.TTF);
 }
-
+@font-face {
+    font-family: Decoder;
+    src: url(decoder.TTF);
+}
 
 .navbar {
     background-color: #333;
@@ -35,3 +38,28 @@
     background-color: #04AA6D;
     color: white;
   }
+
+.title {
+    font-family: Bumblebee;
+    font-size: 50px;
+    padding-top: 250px;
+    padding-bottom: 400px;
+}
+body {
+    background-image: url(background.jpg);
+    backdrop-filter: blur(25px);
+}
+.bodytext {
+    background-image: linear-gradient(#00e673, #00994d);
+    padding-bottom: 100px;
+}
+.bodytext h2 {
+    font-family: Intergalactic;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.bodytext p {
+    font-family: Decoder;
+    padding-left: 20px;
+    font-size: 15px;
+}
