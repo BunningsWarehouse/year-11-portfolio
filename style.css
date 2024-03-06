@@ -41,9 +41,10 @@
 
 .title {
     font-family: Bumblebee;
-    font-size: 50px;
-    padding-top: 250px;
-    padding-bottom: 400px;
+    font-size: 100px;
+    padding-top: 175px;
+    padding-bottom: 175px;
+    text-align: center;
 }
 body {
     background-image: url(background.jpg);
@@ -51,15 +52,51 @@ body {
 }
 .bodytext {
     background-image: linear-gradient(#00e673, #00994d);
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .bodytext h2 {
     font-family: Intergalactic;
-    font-size: 25px;
+    font-size: 50px;
     padding-left: 20px;
+    
 }
-.bodytext p {
+.bodytext h3, a {
+    font-family: Intergalactic;
+    font-size: 40px;
+    padding-left: 20px;
+    
+}
+.bodytext p, ul, li {
     font-family: Decoder;
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 30px;
+}
+
+
+.finalOutcome p {
+    float: left;
+    width: 75%;
+
+}
+.finalOutcome img {
+    float: right;
+    padding-right: 50px;
+    border-radius: 20px;
+    size: 100%;
+    padding-bottom: 20px;
+   
+}
+.endUsers p {
+    padding-top: 20px;
+    align-items: left;
+    size: 80%;
+}
+
+.question {
+    float: left;
+    width: 50%;
+}
+.answer {
+    float: right;
+    width: 50%;
 }
