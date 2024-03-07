@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: Decoder;
-    src: url(decoder.TTF);
+    src: url(decoder.ttf);
 }
 
 .navbar {
@@ -39,7 +39,7 @@
     color: white;
   }
 
-.title {
+.title, span {
     font-family: Bumblebee;
     font-size: 100px;
     padding-top: 175px;
@@ -60,18 +60,23 @@ body {
     padding-left: 20px;
     
 }
-.bodytext h3, a {
+.bodytext h3, a, th {
     font-family: Intergalactic;
     font-size: 40px;
     padding-left: 20px;
     
 }
-.bodytext p, ul, li {
+.bodytext p, ul, li, td {
     font-family: Decoder;
     padding-left: 20px;
     font-size: 30px;
 }
 
+.bodytext td {
+    font-family: Decoder;
+    padding-left: 20px;
+    font-size: 20px;
+}
 
 .finalOutcome p {
     float: left;
@@ -100,3 +105,47 @@ body {
     float: right;
     width: 50%;
 }
+.developmentsection p, .improvements p {
+    width: 60%;
+    float: left;
+}
+.developmentsection img, .improvements img {
+    float: right;
+    padding-right: 20px;
+}
+td {
+    min-width: 200px;
+    text-align: center;
+    padding: var(--padding-small);
+}
+.bodytext h3 {
+    size: 30px;
+}
+.testing table {
+    border-collapse: collapse;
+    margin: auto;
+}
+h4 {
+    font-family: Intergalactic;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.feedbackquestion p {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+.title {
+    position: relative;
+  }
+.title h1 {
+    position: relative;
+    display: inline-block;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
