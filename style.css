@@ -141,11 +141,20 @@ h4 {
 .title h1 {
     position: relative;
     display: inline-block;
-    animation: flip 2s infinite;
+    animation: flip 3s infinite;
     animation-delay: calc(.2s * var(--i))
   }
   @keyframes flip {
     0%,80% {
       transform: rotateY(360deg) 
     }
+  }
+.developmentlink a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
   }
