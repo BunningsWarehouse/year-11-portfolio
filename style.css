@@ -69,6 +69,7 @@ body {
 .bodytext p, ul, li, td {
     font-family: Decoder;
     padding-left: 20px;
+    padding-right: 20px;
     font-size: 30px;
 }
 
