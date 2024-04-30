@@ -164,3 +164,19 @@ h4 {
     width: 25%;
     padding-bottom: 20px;
   }
+#torso1 {
+    width: 50%;
+    padding-left: 25px;
+}
+#torso2 {
+    width: 25%;
+    padding-left: 25px;
+}
+#torsoTest1 {
+    width: 25%;
+    padding-left: 25px;
+}
+#torsoTest2 {
+    width: 25%;
+    padding-left: 25px;
+}
